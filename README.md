@@ -1,22 +1,35 @@
 # Mango Dress Detection App
 
-Este proyecto es una aplicación móvil desarrollada con **Flutter** que utiliza un modelo de IA para clasificar imágenes de vestidos de Mango. La aplicación permite a los usuarios cargar imágenes desde la galería o tomar fotos directamente con la cámara para identificar si una prenda es un "Mango Dress". El modelo utilizado fue entrenado con **Teachable Machine** y luego exportado a **TensorFlow Lite** para su integración en la aplicación.
+## Descripción del Proyecto
 
-## Funcionalidades
+Este proyecto es una **aplicación móvil** desarrollada utilizando **Flutter** que permite a los usuarios identificar si una prenda de vestir corresponde a un "Mango Dress". La aplicación utiliza un **modelo de clasificación de imágenes** entrenado en **Teachable Machine** y exportado a **TensorFlow Lite** para su ejecución eficiente en dispositivos móviles.
 
-- **Carga de imágenes desde la cámara o la galería**: Los usuarios pueden tomar una foto con la cámara del dispositivo o seleccionar una imagen desde la galería.
-- **Clasificación de imágenes**: El modelo clasifica la imagen seleccionada en categorías como "Mango Dress" o "No Mango Dress".
-- **Precisión**: Muestra la etiqueta predicha junto con un porcentaje de precisión basado en la confianza del modelo.
-- **Interfaz sencilla**: Una interfaz amigable que permite realizar predicciones fácilmente.
+### Características principales:
+
+- **Clasificación de imagen**: La aplicación permite tomar una foto o seleccionar una imagen desde la galería y clasificarla en dos categorías: "Mango Dress" o "No Mango Dress".
+- **Modelo de IA**: El modelo entrenado utiliza técnicas de **Deep Learning** para identificar prendas de vestir específicas basadas en imágenes de entrenamiento proporcionadas.
+- **Interfaz de usuario amigable**: La aplicación tiene una interfaz sencilla y clara para el usuario, permitiéndole interactuar de forma fácil y rápida.
+- **Precisión del modelo**: Después de cada clasificación, la aplicación muestra la categoría de la prenda con un porcentaje que refleja la certeza del modelo.
 
 ## Tecnologías Utilizadas
 
-- **Flutter**: Framework utilizado para el desarrollo de la aplicación móvil.
-- **TensorFlow Lite**: Para cargar y ejecutar el modelo de IA entrenado en el dispositivo móvil.
-- **Teachable Machine**: Herramienta utilizada para entrenar el modelo de clasificación de imágenes.
+### 1. **Flutter**:
+   Flutter es un framework de desarrollo móvil de Google, utilizado para crear aplicaciones nativas de alto rendimiento para **Android** e **iOS**. Este proyecto fue desarrollado en Flutter utilizando **Dart** como lenguaje de programación.
+
+### 2. **Teachable Machine**:
+   Teachable Machine es una herramienta de Google que permite crear modelos de aprendizaje automático de manera sencilla sin necesidad de experiencia previa en machine learning. Se usó para entrenar el modelo de clasificación de imágenes.
+
+### 3. **TensorFlow Lite**:
+   TensorFlow Lite es una versión optimizada de TensorFlow diseñada para ejecutar modelos de machine learning en dispositivos móviles de manera eficiente. El modelo entrenado en Teachable Machine se exportó a un formato **TensorFlow Lite (.tflite)** para integrarlo en la aplicación móvil.
+
+### 4. **Dart**:
+   Dart es el lenguaje de programación utilizado en Flutter para implementar la lógica de la aplicación, interactuar con el modelo y gestionar la interfaz de usuario.
 
 ## Instalación
 
-1. Clona este repositorio en tu máquina local:
-   ```bash
-   git clone https://github.com/tu_usuario/mango-dress-detection.git
+### 1. Clonar el repositorio
+
+Primero, clona el repositorio del proyecto en tu máquina local con el siguiente comando:
+
+```bash
+git clone https://github.com/tu_usuario/mango-dress-detection.git
