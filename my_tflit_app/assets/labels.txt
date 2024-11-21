@@ -1,0 +1,13 @@
+0 apple
+1 avocado
+2 banana
+3 cherry
+4 kiwi
+5 mango
+6 orange
+7 pinenapple
+8 stawberries
+9 watermelon
+10 Healthy
+11 Sooty Mould
+12 Gall Midge
